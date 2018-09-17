@@ -7,7 +7,7 @@ description: "既然选择了远方，便只顾风雨兼程"
 keyword: "水水, ww, 水水的博客, yousanflics, 杨子曦, iOS, Apple, iPhone"
 url: "http://yousanflics.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/yousanflics/yousanflics.github.io.git" # you code repository
+github_repo: "https://github.com/Yousanflics/yousanflics.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -19,10 +19,10 @@ sidebar-avatar: /img/yousanflics.jpg      # use absolute URL, seeing it's used i
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
+zhihu_username:     yousandlics
+github_username:    yousandlics
+facebook_username:  #baiying.qiu.7
+jianshu_username:   #e71990ada2fd
 #twitter_username:   qiubaiying
 
 
@@ -62,8 +62,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 2ca3959415d3804382e5                            #生成的clientID
-  clientSecret: 3c07fe98bb81f44bb2607fc106f4ff74d291b3aa    #生成的clientSecret
+  clientID: 3126f619f272c305d516                            #生成的clientID
+  clientSecret: 4493a94c06aba19123fdb1e7e51dcdbee3a6f2b4    #生成的clientSecret
   repo: yousanflics.github.io    #仓库名称
   owner: yousanflics    #github用户名
   admin: yousanflics
@@ -74,7 +74,7 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+#ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
 ga_track_id: 'UA-125803778-1'            # Format: UA-xxxxxx-xx
@@ -101,9 +101,6 @@ friends: [
     {
         title: " 五斤 ",
         href: "https://www.chairyfish.com/"
-    },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
     },{
         title: "Apple",
         href: "https://apple.com"
