@@ -111,19 +111,19 @@ friends: [
         href: "https://www.saitjr.com/"
     },
     {
-        title: " SunnyYoung "
+        title: " SunnyYoung ",
         href: "https://www.sunnyyoung.net/"
     },
     {
-        title: " Martin "
+        title: " Martin ",
         href: "https://martinrgb.com/"
     },
     {
-        title: " 大圣 "
+        title: " 大圣 ",
         href: "https://www.khala-wan.com/"
     },
     {
-        title: " BigNerdCoding "
+        title: " BigNerdCoding ",
         href: "https://bignerdcoding.com/"
     },
     {
@@ -131,7 +131,7 @@ friends: [
         href: "https://github.com/liberalisman/"
     },
     {
-        title: "靛青K"
+        title: "靛青K",
         href: "https://blog.dianqk.org/"
     },
 ]
