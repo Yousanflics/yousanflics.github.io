@@ -101,11 +101,37 @@ friends: [
     {
         title: " 五斤 ",
         href: "https://www.chairyfish.com/"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
-    }
+    },
+    {
+        title: " sketchk ",
+        href: "https://www.sketchk.xyz/"
+    },
+    {
+        title: " sai ",
+        href: "https://www.saitjr.com/"
+    },
+    {
+        title: " SunnyYoung "
+        href: "https://www.sunnyyoung.net/"
+    },
+    {
+        title: " Martin "
+        href: "https://martinrgb.com/"
+    },
+    {
+        title: " 大圣 "
+        href: "https://www.khala-wan.com/"
+    },
+    {
+        title: " BigNerdCoding "
+        href: "https://bignerdcoding.com/"
+    },
+    {
+        title: " Liberalism ",
+        href: "https://github.com/liberalisman/"
+    },
+    {
+        title: "靛青K"
+        href: "https://blog.dianqk.org/"
+    },
 ]
