@@ -3,7 +3,7 @@
 <div align="center"> <img src="http://yousanflics.github.io/img/YY_blog_logo.png" width="600"/> </div><br>
 
 
-![](http://yousanflics.github.io/img/readme-home.png)
+![](https://github.com/Yousanflics/yousanflics.github.io/blob/master/img/readme-home.png)
 
 
 [![Build Status](https://travis-ci.org/Yousanflics/yousanflics.github.io.svg?branch=master)](https://travis-ci.org/yousanflics/yousanflics.github.io)
