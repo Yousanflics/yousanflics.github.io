@@ -1,4 +1,4 @@
-# Young Area
+
 
 <div align="center"> <img src="http://yousanflics.github.io/img/YY_blog_logo.png" width="600"/> </div><br>
 
