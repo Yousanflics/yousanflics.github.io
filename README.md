@@ -3,21 +3,12 @@
 <div align="center"> <img src="http://yousanflics.github.io/img/YY_blog_logo.png" width="600"/> </div><br>
 
 
-![](https://github.com/Yousanflics/yousanflics.github.io/blob/master/img/readme-home.png)
-
-
-[![Build Status](https://travis-ci.org/Yousanflics/yousanflics.github.io.svg?branch=master)](https://travis-ci.org/yousanflics/yousanflics.github.io)
-
+![](https://github.com/Yousanflics/yousanflics.github.io/blob/master/img/readme-home.png)[![Build Status](https://travis-ci.org/Yousanflics/yousanflics.github.io.svg?branch=master)](https://travis-ci.org/yousanflics/yousanflics.github.io)
 [![codebeat badge](https://codebeat.co/badges/5f031df3-f6c1-4ec0-911a-ff6617ca50b9)](https://codebeat.co/projects/github-com-yousanflics-yousanflics-github-io-master)
-
 [![GitHub issues](https://img.shields.io/github/issues/Yousanflics/yousanflics.github.io.svg)](https://github.com/yousanflics/yousanflics.github.io/issues)
-
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/home-assistant/home-assistant-iOS/blob/master/LICENSE)
-
 [![](https://img.shields.io/github/stars/Yousanflics/yousanflics.github.io.svg)](https://github.com/yousanflics/yousanflics.github.io)
-
 [![](https://img.shields.io/github/forks/Yousanflics/yousanflics.github.io.svg)](https://github.com/yousanflics/yousanflics.github.io) 
-
 <a href="http://weibo.com/Zx_Young027"><img src="https://img.shields.io/badge/weibo-Zx__Young027-orange.svg"></a>
 
 ## 使用 Jekyll 搭建个人博客详细操作
