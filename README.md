@@ -7,12 +7,18 @@
 
 
 [![Build Status](https://travis-ci.org/Yousanflics/yousanflics.github.io.svg?branch=master)](https://travis-ci.org/yousanflics/yousanflics.github.io)
-[![codebeat badge](https://codebeat.co/badges/5f031df3-f6c1-4ec0-911a-ff6617ca50b9)](https://codebeat.co/projects/github-com-yousanflics-yousanflics-github-io-master)
-[![GitHub issues](https://img.shields.io/github/issues/Yousanflics/yousanflics.github.io.svg)](https://github.com/yousanflics/yousanflics.github.io/issues)
-[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/home-assistant/home-assistant-iOS/blob/master/LICENSE)
-[![](https://img.shields.io/github/stars/Yousanflics/yousanflics.github.io.svg)](https://github.com/yousanflics/yousanflics.github.io)
-[![](https://https://img.shields.io/github/forks/Yousanflics/yousanflics.github.io.svg)](https://github.com/yousanflics/yousanflics.github.io) 
 
+[![codebeat badge](https://codebeat.co/badges/5f031df3-f6c1-4ec0-911a-ff6617ca50b9)](https://codebeat.co/projects/github-com-yousanflics-yousanflics-github-io-master)
+
+[![GitHub issues](https://img.shields.io/github/issues/Yousanflics/yousanflics.github.io.svg)](https://github.com/yousanflics/yousanflics.github.io/issues)
+
+[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/home-assistant/home-assistant-iOS/blob/master/LICENSE)
+
+[![](https://img.shields.io/github/stars/Yousanflics/yousanflics.github.io.svg)](https://github.com/yousanflics/yousanflics.github.io)
+
+[![](https://img.shields.io/github/forks/Yousanflics/yousanflics.github.io.svg)](https://github.com/yousanflics/yousanflics.github.io) 
+
+<a href="http://weibo.com/Zx_Young027"><img src="https://img.shields.io/badge/weibo-Zx__Young027-orange.svg"></a>
 
 ## 使用 Jekyll 搭建个人博客详细操作
 
@@ -38,7 +44,7 @@
 
 ### 环境
 
-如果你安装了 [jekyll](http://jekyllcn.com/)，那你只需要在命令行输入`jekyll serve` 或 `jekyll s`就能在本地浏览器中输入`http://127.0.0.1:4000/`预览主题，对主题的修改也能实时展示（需要强刷浏览器）。
+如果你安装了 [jekyll](http://jekyllcn.com/)，那你只需要在命令行输入`jekyll serve` 或 `jekyll s`就能在本地浏览器中输入`http://127.0.0.1:4000/`预览主题，对主题的修改也能实时展示（需要清理浏览器的本地缓存）。
 
 
 
@@ -106,7 +112,7 @@ Mini-About-Me 这个模块将在你的头像下面，展示你所有的社交账
 
 ### Featured Tags
 
-看到这个网站 [Medium](http://medium.com) 的推荐标签非常的炫酷，所以我将他加了进来。
+看到 [Medium](http://medium.com) 上的推荐标签非常的炫酷，所以我将他加了进来。
 这个模块现在是独立的，可以呈现在所有页面，包括主页和发表的每一篇文章标题的头上。
 
 ```
@@ -138,18 +144,18 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 
 友链会在所有页面显示。
 
-设置是在 `_config.yml`文件里面的`Friends`那块，自己加吧。
+设置是在 `_config.yml` 文件里面的 `Friends` 那块，自己 DIY 就行。
 
 ```
 # Friends
 friends: [
     {
-        title: "BY Blog",
-        href: "https://qiubaiying.github.io/"
+        title: "冰霜",
+        href: "https://github.com/halfrost/Halfrost-Field"
     },
     {
         title: "Apple",
-        href: "https://apple.com/"
+        href: "https://www.apple.com/"
     }
 ]
 ```
@@ -161,9 +167,9 @@ HTML5幻灯片的排版：
 
 ![](https://camo.githubusercontent.com/f30347a118171820b46befdf77e7b7c53a5641a9/687474703a2f2f6875616e677875616e2e6d652f696d672f626c6f672d6b65796e6f74652e6a7067)
 
-这部分是用于占用html格式的幻灯片的，一般用到的是 Reveal.js, Impress.js, Slides, Prezi 等等.我认为一个现代化的博客怎么能少了放html幻灯的功能呢~
+这部分是用于占用html格式的幻灯片的，一般用到的是 Reveal.js, Impress.js, Slides, Prezi 等等.我认为一个现代化的博客怎么能少了放 html 幻灯的功能呢~
 
-其主要原理是添加一个 `iframe`，在里面加入外部链接。你可以直接写到头文件里面去，详情请见下面的yaml头文件的写法。
+其主要原理是添加一个 `iframe`，在里面加入外部链接。你可以直接写到头文件里面去，详情请见下面的 yaml 头文件的写法。
 
 ```
 ---
@@ -177,37 +183,19 @@ iframe在不同的设备中，将会自动的调整大小。保留内边距是�
 
 ### Comment
 
-博客不仅支持 [Disqus](http://disqus.com) 评论系统,还加入了 [Gitalk](https://gitalk.github.io/) 评论系统，[支持 Markdwon 语法](https://guides.github.com/features/mastering-markdown/)，cool~
+博客仅支持 [Gitalk](https://gitalk.github.io/) 评论系统，[支持 Markdwon 语法](https://guides.github.com/features/mastering-markdown/)，cool~
 
-#### Disqus
 
-优点：国际比较流行，界面也很大气、简洁，如果有人评论，还能实时通知，直接回复通知的邮件就行了；
-
-缺点：评论必须要去注册一个disqus账号，分享一般只有Facebook和Twitter，另外在墙内加载速度略慢了一点。想要知道长啥样，可以看以前的版本点[这里](http://brucezhaor.github.io/about.html) 最下面就可以看到。
-
-> Node：有很多人反映 Disqus 插件加载不出来，可能墙又架高了，有条件的话翻个墙就好了~
-
-**使用：**
-
-**首先**，你需要去注册一个Disqus帐号。**不要直接使用我的啊！**
-
-**其次**，你只需要在下面的 yaml 头文件中设置一下就可以了。
-
-```
-# 评论系统
-# Disqus（https://disqus.com/）
-disqus_username: qiubaiying
-```
 
 #### Gitalk
 
-优点：界面干净简洁，利用 Github issue API 做的评论插件，使用 Github 帐号进行登录和评论，最喜欢的支持 Markdown 语法，对于程序员来说真是太 cool 了。
+优点：界面干净简洁，利用 Github issue API 做的评论插件，使用 Github 帐号进行登录和评论，支持 Markdown 语法，十分方便技术人员之间的相互交流。
 
 缺点：配置比较繁琐，每篇文章的评论都需要初始化。
 
 **使用：**
 
-参考我的这篇文章：[《为博客添加 Gitalk 评论插件》](http://qiubaiying.top/2017/12/19/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0-Gitalk-%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6/)
+可以参考左神的这篇文章：[自动初始化 Gitalk 和 Gitment 评论](https://draveness.me/git-comments-initialize)
 
 
 ### Analytics
@@ -266,9 +254,9 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 
 ## 致谢
 
-1. 这个模板是从这里 [Hux](https://github.com/Huxpro/huxpro.github.io) fork 的, 感谢这个作者。 
+1. 该模板 Fork 自 [Hux](https://github.com/Huxpro/huxpro.github.io) 这里, 感谢该作者。 
 2. 感谢 Jekyll、Github Pages 和 Bootstrap!
-3. 博客的搭建参考了 [BY](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io) 相关的，十分感谢他所写的教程！
+3. 博客的搭建参考了 [BY](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io) 的教程，十分感谢！
 
 ## License
 
