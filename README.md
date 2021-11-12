@@ -141,7 +141,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 # Friends
 friends: [
     {
-        title: "冰霜",
+        title: "Halfrost",
         href: "https://github.com/halfrost/Halfrost-Field"
     },
     {
