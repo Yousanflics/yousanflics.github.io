@@ -2,18 +2,18 @@
 
 A modern personal blog built with Next.js 16 and shadcn/ui, featuring a sleek dark theme and elegant design.
 
-## ✨ Features
+## Features
 
-- 🚀 **Next.js 16** - Latest React framework with App Router
-- 🎨 **shadcn/ui** - Beautiful, accessible UI components
-- 🌓 **Dark Mode** - System-aware theme switching
-- 📝 **Markdown Blog** - Write articles in Markdown
-- 🏷️ **Tag System** - Organize posts by topics
-- 📱 **Responsive** - Perfect on all devices
-- ⚡ **Static Export** - Blazing fast performance
-- 🎯 **SEO Optimized** - Built-in metadata support
+- **Next.js 16** - Latest React framework with App Router
+- **shadcn/ui** - Beautiful, accessible UI components
+- **Dark Mode** - System-aware theme switching
+- **Markdown Blog** - Write articles in Markdown
+- **Tag System** - Organize posts by topics
+- **Responsive** - Perfect on all devices
+- **Static Export** - Blazing fast performance
+- **SEO Optimized** - Built-in metadata support
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 16
 - **UI Library**: shadcn/ui + Radix UI
@@ -23,7 +23,7 @@ A modern personal blog built with Next.js 16 and shadcn/ui, featuring a sleek da
 - **Icons**: lucide-react
 - **Theme**: next-themes
 
-## 📦 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -48,7 +48,7 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000) to view the blog.
 
-## 📝 Adding New Posts
+## Adding New Posts
 
 Create a new Markdown file in `content/posts/` with the following format:
 
@@ -66,7 +66,7 @@ tags:
 Your content here...
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ├── app/                    # Next.js App Router pages
@@ -88,7 +88,7 @@ Your content here...
 └── out/                 # Build output (for deployment)
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### GitHub Pages
 
@@ -110,7 +110,7 @@ npm run build
 # Deploy the 'out' folder to your hosting service
 ```
 
-## 🎨 Customization
+## Customization
 
 ### Update Personal Info
 
@@ -124,18 +124,18 @@ Edit these files to customize:
 
 Modify `app/globals.css` to change the color scheme.
 
-## 📄 License
+## License
 
 MIT License - see [LICENSE](LICENSE) file for details
 
-## 👤 Author
+## Author
 
 **Yousanflics**
 
 - GitHub: [@yousanflics](https://github.com/yousanflics)
 - Website: [https://yousanflics.github.io](https://yousanflics.github.io)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Next.js](https://nextjs.org/)
 - [shadcn/ui](https://ui.shadcn.com/)
