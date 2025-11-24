@@ -1,254 +1,143 @@
+# Young Studio – Personal Blog & Projects
 
+A modern personal blog built with Next.js 16 and shadcn/ui, featuring a sleek dark theme and elegant design.
 
-<div align="center"> <img src="http://yousanflics.github.io/img/YY_blog_logo.png" width="600"/> </div><br>
+## ✨ Features
 
+- 🚀 **Next.js 16** - Latest React framework with App Router
+- 🎨 **shadcn/ui** - Beautiful, accessible UI components
+- 🌓 **Dark Mode** - System-aware theme switching
+- 📝 **Markdown Blog** - Write articles in Markdown
+- 🏷️ **Tag System** - Organize posts by topics
+- 📱 **Responsive** - Perfect on all devices
+- ⚡ **Static Export** - Blazing fast performance
+- 🎯 **SEO Optimized** - Built-in metadata support
 
-![](https://github.com/Yousanflics/yousanflics.github.io/blob/master/img/readme-home.png)[![Build Status](https://travis-ci.org/Yousanflics/yousanflics.github.io.svg?branch=master)](https://travis-ci.org/yousanflics/yousanflics.github.io)
-[![codebeat badge](https://codebeat.co/badges/5f031df3-f6c1-4ec0-911a-ff6617ca50b9)](https://codebeat.co/projects/github-com-yousanflics-yousanflics-github-io-master)
-[![GitHub issues](https://img.shields.io/github/issues/Yousanflics/yousanflics.github.io.svg)](https://github.com/yousanflics/yousanflics.github.io/issues)
-[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/home-assistant/home-assistant-iOS/blob/master/LICENSE)
-[![](https://img.shields.io/github/stars/Yousanflics/yousanflics.github.io.svg)](https://github.com/yousanflics/yousanflics.github.io)
-[![](https://img.shields.io/github/forks/Yousanflics/yousanflics.github.io.svg)](https://github.com/yousanflics/yousanflics.github.io) 
-<a href="http://weibo.com/Zx_Young027"><img src="https://img.shields.io/badge/weibo-Zx__Young027-orange.svg"></a>
+## 🛠️ Tech Stack
 
-## 使用 Jekyll 搭建个人博客详细操作
+- **Framework**: Next.js 16
+- **UI Library**: shadcn/ui + Radix UI
+- **Styling**: Tailwind CSS 4
+- **Language**: TypeScript
+- **Markdown**: react-markdown, gray-matter
+- **Icons**: lucide-react
+- **Theme**: next-themes
 
-* 开始
-	* [环境](#环境)
-	* [开始](#开始)
-	* [撰写博文](#撰写博文)
-* 组件
-	* [侧边栏](#侧边栏)
-	* [迷你关于我](#mini-about-me)
-	* [推荐标签](#featured-tags)
-	* [好友链接](#friends)
-	* [HTML5 演示文档布局](#keynote-layout)
-* 评论与 Google/Baidu Analytics
-	* [评论](#comment)
-	* [网站分析](#analytics) 
-* 高级部分
-	* [自定义](#customization)
-	* [标题底图](#header-image)
-	* [搜索展示标题-头文件](#seo-title)
+## 📦 Getting Started
 
+### Prerequisites
 
+- Node.js 18.0 or higher
+- npm or yarn
 
-### 环境
+### Installation
 
-如果你安装了 [jekyll](http://jekyllcn.com/)，那你只需要在命令行输入`jekyll serve` 或 `jekyll s`就能在本地浏览器中输入`http://127.0.0.1:4000/`预览主题，对主题的修改也能实时展示（需要清理浏览器的本地缓存）。
+```bash
+# Install dependencies
+npm install
 
+# Run development server
+npm run dev
 
+# Build for production
+npm run build
 
-### 开始
-
-你可以通用修改 `_config.yml`文件来轻松的开始搭建自己的博客:
-
-```
-# Site settings
-title: Young Area                    # 你的博客网站标题
-SEOTitle: 水水的博客 | 曦息地		# SEO 标题
-description: "This is my blog"	   	   # 随便说点，描述一下
-
-# SNS settings      
-github_username: yousanflics     # 你的github账号
-
-# Build settings
-# paginate: 10              # 一页你准备放的文章数目
+# Preview production build
+npm start
 ```
 
+Open [http://localhost:3000](http://localhost:3000) to view the blog.
 
+## 📝 Adding New Posts
 
+Create a new Markdown file in `content/posts/` with the following format:
 
-Jekyll官方网站还有很多的参数可以调，比如设置文章的链接形式等网址在这里：[Jekyll - Official Site](http://jekyllrb.com/) 中文官网在这里：[Jekyll中文](http://jekyllcn.com/).
-
-### 撰写博文
-
-要发表的文章一般以 **Markdown** 的格式放在这里`_posts/`，你只要看看这篇模板里的文章你就立刻明白该如何设置。
-
-yaml 头文件长这样:
-
-```
+```markdown
 ---
-layout:     post
-title:      博客迁移
-subtitle:   "HelloWorld，Again"       #记得使用引号
-date:       2018-09-20
-author:     Yousanflics
-header-img: img/post-bg-rwd.jpg
-catalog: 	 true
+title: Your Post Title
+description: Brief description
+date: 2025-01-01
+author: Your Name
 tags:
-    - 生活
-    - 个人博客
+  - Tag1
+  - Tag2
 ---
 
+Your content here...
 ```
 
-### 侧边栏
-
-设置是在 `_config.yml`文件里面的`Sidebar settings`那块。
+## 📂 Project Structure
 
 ```
-# Sidebar settings
-sidebar: true  #添加侧边栏
-sidebar-about-description: "简单的描述一下你自己"
-sidebar-avatar: /img/avatar-by.jpg     #你的个人头像，请使用绝对地址.注意：名字区分大小写！后缀名也是
+├── app/                    # Next.js App Router pages
+│   ├── blog/              # Blog pages
+│   ├── tags/              # Tag pages
+│   ├── about/             # About page
+│   ├── layout.tsx         # Root layout
+│   └── page.tsx           # Home page
+├── components/            # React components
+│   ├── blog/             # Blog-specific components
+│   └── ui/               # shadcn/ui components
+├── content/              # Content directory
+│   └── posts/           # Markdown blog posts
+├── lib/                  # Utility functions
+│   ├── blog/            # Blog utilities
+│   └── types.ts         # TypeScript types
+├── public/              # Static assets
+│   └── images/         # Blog images
+└── out/                 # Build output (for deployment)
 ```
 
-侧边栏是响应式布局的，当屏幕尺寸小于992px的时候，侧边栏就会移动到底部。具体请见bootstrap栅格系统 <http://v3.bootcss.com/css/>
+## 🚀 Deployment
 
+### GitHub Pages
 
-### Mini About Me
-
-Mini-About-Me 这个模块将在你的头像下面，展示你所有的社交账号。这个也是响应式布局，当屏幕变小时候，会将其移动到页面底部，只不过会稍微有点小变化，具体请看代码。
-
-### Featured Tags
-
-看到 [Medium](http://medium.com) 上的推荐标签非常的炫酷，所以我将他加了进来。
-这个模块现在是独立的，可以呈现在所有页面，包括主页和发表的每一篇文章标题的头上。
-
-```
-# Featured Tags
-featured-tags: true  
-featured-condition-size: 1     # A tag will be featured if the size of it is more than this condition value
+1. Build the project:
+```bash
+npm run build
 ```
 
-唯一需要注意的是`featured-condition-size`: 如果一个标签的 SIZE，也就是使用该标签的文章数大于上面设定的条件值，这个标签就会在首页上被推荐。
- 
-内部有一个条件模板 `{% if tag[1].size > {{site.featured-condition-size}} %}` 是用来做筛选过滤的.
+2. The `out/` directory contains the static export
 
-### Social-media Account
+3. GitHub Actions will automatically deploy to GitHub Pages
 
-在下面输入的社交账号，没有的添加的不会显示在侧边框中。
+### Manual Deployment
 
-	# SNS settings
-	RSS: false
-	zhihu_username:     username
-	facebook_username:  username
-	github_username:    username
-	# weibo_username:   username
-	
-	
+```bash
+# Build and export
+npm run build
 
-![](http://ww4.sinaimg.cn/large/006tKfTcgy1fgrgbgf77aj308i02v748.jpg)
-
-### Friends
-
-友链会在所有页面显示。
-
-设置是在 `_config.yml` 文件里面的 `Friends` 那块，自己 DIY 就行。
-
-```
-# Friends
-friends: [
-    {
-        title: "Halfrost",
-        href: "https://github.com/halfrost/Halfrost-Field"
-    },
-    {
-        title: "Apple",
-        href: "https://www.apple.com/"
-    }
-]
+# Deploy the 'out' folder to your hosting service
 ```
 
+## 🎨 Customization
 
-### Keynote Layout
+### Update Personal Info
 
-HTML5幻灯片的排版：
+Edit these files to customize:
+- `app/layout.tsx` - Site metadata
+- `app/about/page.tsx` - About page content
+- `components/blog/navbar.tsx` - Navigation bar
+- `components/blog/footer.tsx` - Footer
 
-![](https://camo.githubusercontent.com/f30347a118171820b46befdf77e7b7c53a5641a9/687474703a2f2f6875616e677875616e2e6d652f696d672f626c6f672d6b65796e6f74652e6a7067)
+### Theme Colors
 
-这部分是用于占用html格式的幻灯片的，一般用到的是 Reveal.js, Impress.js, Slides, Prezi 等等.我认为一个现代化的博客怎么能少了放 html 幻灯的功能呢~
+Modify `app/globals.css` to change the color scheme.
 
-其主要原理是添加一个 `iframe`，在里面加入外部链接。你可以直接写到头文件里面去，详情请见下面的 yaml 头文件的写法。
+## 📄 License
 
-```
----
-layout:     keynote
-iframe:     "http://huangxuan.me/js-module-7day/"
----
-```
+MIT License - see [LICENSE](LICENSE) file for details
 
-iframe在不同的设备中，将会自动的调整大小。保留内边距是为了让手机用户可以向下滑动，以及添加更多的内容。
+## 👤 Author
 
+**Yousanflics**
 
-### Comment
+- GitHub: [@yousanflics](https://github.com/yousanflics)
+- Website: [https://yousanflics.github.io](https://yousanflics.github.io)
 
-博客仅支持 [Gitalk](https://gitalk.github.io/) 评论系统，[支持 Markdwon 语法](https://guides.github.com/features/mastering-markdown/)，cool~
+## 🙏 Acknowledgments
 
-
-
-#### Gitalk
-
-优点：界面干净简洁，利用 Github issue API 做的评论插件，使用 Github 帐号进行登录和评论，支持 Markdown 语法，十分方便技术人员之间的相互交流。
-
-缺点：配置比较繁琐，每篇文章的评论都需要初始化。
-
-**使用：**
-
-可以参考左神的这篇文章：[自动初始化 Gitalk 和 Gitment 评论](https://draveness.me/git-comments-initialize)
-
-
-### Analytics
-
-网站分析，现在支持百度统计和Google Analytics。需要去官方网站注册一下，然后将返回的code贴在下面：
-
-```
-# Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
-
-# Google Analytics
-ga_track_id: 'UA-49627206-1'            # 你用Google账号去注册一个就会给你一个这样的id
-ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
-```
-
-### Customization
-
-如果你喜欢折腾，你可以去自定义这个模板的 Code。
-
-**如果你可以理解 `_include/` 和 `_layouts/`文件夹下的代码（这里是整个界面布局的地方），你就可以使用 Jekyll 使用的模版引擎 [Liquid](https://github.com/Shopify/liquid/wiki)的语法直接修改/添加代码，来进行更有创意的自定义界面啦！**
-
-### Header Image
-
-博客每页的标题底图是可以自己选的，看看几篇示例post你就知道如何设置了。
-  
-标题底图的选取完全是看个人的审美了。每一篇文章可以有不同的底图，你想放什么就放什么，最后宽度要够，大小不要太大，否则加载慢啊。
-
-> 上传的图片最好先压缩，这里推荐 imageOptim 图片压缩软件，让你的博客起飞。
-
-但是需要注意的是本模板的标题是**白色**的，所以背景色要设置为**灰色**或者**黑色**，总之深色系就对了。当然你还可以自定义修改字体颜色，总之，用github pages就是可以完全的个性定制自己的博客。
-
-### SEO Title
-
-我的博客标题是 **“Young Area”** 但是我想要在搜索的时候显示 **“水水的博客 | 曦息地”** ，这个就需要 SEO Title 来定义了。
-
-其实这个 SEO Title 就是定义了<head><title>标题</title></head>这个里面的东西和多说分享的标题，你可以自行修改的。
-
-### 关于收到"Page Build Warning"的 Email
-
-由于jekyll升级到3.0.x,对原来的 pygments 代码高亮不再支持，现只支持一种-rouge，所以你需要在 `_config.yml`文件中修改`highlighter: rouge`.另外还需要在`_config.yml`文件中加上`gems: [jekyll-paginate]`.
-
-同时,你需要更新你的本地 jekyll 环境.
-
-使用`jekyll server`的同学需要这样：
-
-1. `gem update jekyll` # 更新jekyll
-2. `gem update github-pages` #更新依赖的包
-
-使用`bundle exec jekyll server`的同学在更新 jekyll 后，需要输入`bundle update`来更新依赖的包.
-
-> Note：
-> 可以使用 `jekyll -s` 命令在本地实时配置博客，提高效率。详见 [Jekyll.com](http://jekyllcn.com/)
-
-参考文档：[using jekyll with pages](https://help.github.com/articles/using-jekyll-with-pages/) & [Upgrading from 2.x to 3.x](http://jekyllrb.com/docs/upgrading/2-to-3/)
-
-
-## 致谢
-
-1. 该模板 Fork 自 [Hux](https://github.com/Huxpro/huxpro.github.io) 这里, 感谢该作者。 
-2. 感谢 Jekyll、Github Pages 和 Bootstrap!
-3. 博客的搭建参考了 [BY](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io) 的教程，十分感谢！
-
-## License
-
-遵循 MIT 许可证。有关详细,请参阅 [LICENSE](https://github.com/qiubaiying/qiubaiying.github.io/blob/master/LICENSE)。
+- [Next.js](https://nextjs.org/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Radix UI](https://www.radix-ui.com/)
